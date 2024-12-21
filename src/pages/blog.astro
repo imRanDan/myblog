@@ -1,11 +1,8 @@
 ---
-import Footer from "../components/Footer.astro";
 import Navigation from "../components/Navigation.astro";
-import "../styles/global.css";
-
-const pageTitle = "Home Page"
+import '../styles/global.css';
+import Footer from "../components/Footer.astro";
 ---
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -13,9 +10,14 @@ const pageTitle = "Home Page"
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
+       
 	</head>
-	<body>
-		<Navigation/>
+        <Navigation/>
+      
+        <h1>My Blog, built with Astro</h1>
+        <p>This is where I will post about myself</p>
 		<Footer/>
-	</body>
+      </body>
 </html>
+
+
